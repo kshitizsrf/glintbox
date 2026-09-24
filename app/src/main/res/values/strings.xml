@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Glintbox</string>
+    <!-- TODO: replace with your real support inbox before publishing. -->
+    <string name="support_email" translatable="false">support@glintbox.app</string>
+
+    <!-- Sources (nominative use only — Glintbox is not affiliated with these apps) -->
+    <string name="source_whatsapp">WhatsApp</string>
+    <string name="source_business">WA Business</string>
+    <string name="storage_internal">Internal storage</string>
+    <string name="storage_sd">SD card</string>
+
+    <!-- Tabs -->
+    <string name="tab_statuses">Statuses</string>
+    <string name="tab_saved">Saved</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Home / statuses -->
+    <string name="home_subtitle">Your personal status studio</string>
+    <string name="stat_images">Images</string>
+    <string name="stat_videos">Videos</string>
+    <string name="stat_new">New</string>
+    <string name="all_caught_up">All caught up — everything is saved</string>
+    <string name="filter_all">All</string>
+    <string name="filter_images">Images</string>
+    <string name="filter_videos">Videos</string>
+    <string name="badge_video">Video</string>
+    <string name="respect_note">Only save and share content you have permission to use. Respect the privacy of the people who posted it.</string>
+
+    <string name="access_title">Unlock %1$s statuses</string>
+    <string name="access_message_saf">Android keeps statuses in a protected folder. Grant Glintbox read access to just that one folder — nothing else on your phone.</string>
+    <string name="access_message_legacy">Glintbox needs storage permission to read the statuses %1$s has already downloaded to this phone.</string>
+    <string name="app_not_installed">%1$s doesn\'t appear to be installed on this device.</string>
+    <string name="folder_missing_title">No statuses folder yet</string>
+    <string name="folder_missing_message">Open %1$s, view a few statuses so they download, then come back and pull to refresh.</string>
+    <string name="empty_statuses_title">Nothing here right now</string>
+    <string name="empty_statuses_message">Statuses appear after you view them in %1$s. Watch a few and pull down to refresh.</string>
+    <string name="empty_filter_title">No matches</string>
+    <string name="empty_filter_message">Try another filter.</string>
+
+    <!-- Saved -->
+    <string name="saved_title">Saved</string>
+    <string name="location_default">Saving to (default)</string>
+    <string name="location_custom">Saving to (custom folder)</string>
+    <string name="current_location">Current location</string>
+    <string name="fallback_hint">Android 11+ doesn\'t let apps create folders in the storage root on their own. Approve the folder once and Glintbox will save straight to Internal storage/WhatsApp Statuses.</string>
+    <string name="empty_saved_title">Your gallery is empty</string>
+    <string name="empty_saved_message">Tap the save button on any status and it will show up here.</string>
+    <string name="delete_message">The file will be removed from your save folder. This can\'t be undone.</string>
+
+    <!-- Actions -->
+    <string name="action_save">Save</string>
+    <string name="state_saved">Saved</string>
+    <string name="action_share">Share</string>
+    <string name="action_repost">Repost</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_back">Back</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_clear_selection">Clear selection</string>
+    <string name="action_grant_access">Grant access</string>
+    <string name="action_change_access">Change folder access</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_allow_storage">Allow storage access</string>
+    <string name="action_open_app">Open %1$s</string>
+    <string name="action_choose_again">Choose the folder again</string>
+    <string name="action_open_picker">Open folder picker</string>
+    <string name="action_not_now">Not now</string>
+    <string name="action_setup_default">Set up WhatsApp Statuses folder</string>
+    <string name="action_change_folder">Choose folder</string>
+    <string name="action_choose_other_folder">Choose a different folder</string>
+    <string name="action_use_default">Use default</string>
+    <string name="action_next">Next</string>
+    <string name="action_i_agree">I understand</string>
+    <string name="action_get_started">Get started</string>
+    <string name="action_rate">Rate Glintbox</string>
+    <string name="action_share_app">Share Glintbox</string>
+    <string name="action_feedback">Send feedback</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_image_status">Image status, %1$s</string>
+    <string name="cd_video_status">Video status, %1$s</string>
+    <string name="cd_saved">Saved</string>
+    <string name="cd_selected">Selected</string>
+
+    <!-- Viewer -->
+    <string name="viewer_position">%1$d of %2$d</string>
+
+    <!-- Guides -->
+    <string name="guide_status_title">Allow %1$s statuses</string>
+    <string name="guide_status_step1">The system folder picker opens directly in the .Statuses folder.</string>
+    <string name="guide_status_step2">Tap \"Use this folder\" at the bottom.</string>
+    <string name="guide_status_step3">Confirm with \"Allow\".</string>
+    <string name="guide_status_note">Glintbox can only read this single folder. You can revoke access at any time from Settings.</string>
+    <string name="guide_default_title">Create your save folder</string>
+    <string name="guide_default_step1">The folder picker opens at Internal storage.</string>
+    <string name="guide_default_step2">If it doesn\'t exist yet, tap the ⋮ menu or \"New folder\" and name it \"%1$s\".</string>
+    <string name="guide_default_step3">Open that folder and tap \"Use this folder\".</string>
+    <string name="guide_default_step4">Confirm with \"Allow\".</string>
+    <string name="guide_default_note">This is a one-time step required by Android 11+ storage rules. Glintbox never asks for access to all your files.</string>
+
+    <!-- Messages -->
+    <string name="msg_saved_to">Saved to %1$s</string>
+    <string name="msg_saved_many">%1$d statuses saved</string>
+    <string name="msg_saved_partial">%1$d saved, %2$d failed</string>
+    <string name="msg_already_saved">Already in your gallery</string>
+    <string name="msg_save_failed">Couldn\'t save. Check the save folder in Settings.</string>
+    <string name="msg_deleted">Deleted %1$d item(s)</string>
+    <string name="msg_delete_failed">Some items couldn\'t be deleted</string>
+    <string name="msg_share_failed">No app available to share with</string>
+    <string name="msg_repost_failed">The app to repost to isn\'t available</string>
+    <string name="msg_access_granted">Access granted — loading statuses</string>
+    <string name="msg_access_failed">Couldn\'t keep access to that folder. Please try again.</string>
+    <string name="msg_wrong_status_folder">That isn\'t a statuses folder. Pick the \".Statuses\" folder the picker opens in.</string>
+    <string name="msg_default_folder_ready">Saving to Internal storage/WhatsApp Statuses</string>
+    <string name="msg_not_default_folder">That folder isn\'t \"WhatsApp Statuses\" — using it as a custom folder instead.</string>
+    <string name="msg_custom_folder_set">Custom save folder set</string>
+    <string name="msg_location_reset">Back to the default save folder</string>
+    <string name="msg_keep_one_source">Keep at least one source enabled</string>
+    <string name="msg_auto_save_on">Auto-save is on</string>
+    <string name="msg_auto_save_off">Auto-save is off</string>
+    <string name="msg_no_picker">This device has no system folder picker</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Make Glintbox yours</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_storage">Storage</string>
+    <string name="section_sources">Sources</string>
+    <string name="section_automation">Automation</string>
+    <string name="section_behavior">Behavior</string>
+    <string name="section_about">About</string>
+    <string name="setting_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="setting_palette">Accent palette</string>
+    <string name="palette_aurora">Aurora</string>
+    <string name="palette_ember">Ember</string>
+    <string name="palette_lagoon">Lagoon</string>
+    <string name="palette_orchid">Orchid</string>
+    <string name="palette_jade">Jade</string>
+    <string name="palette_midas">Midas</string>
+    <string name="setting_dynamic">Material You colors</string>
+    <string name="setting_dynamic_desc">Match your wallpaper</string>
+    <string name="setting_amoled">Pure black</string>
+    <string name="setting_amoled_desc">True black backgrounds for OLED screens</string>
+    <string name="setting_amoled_desc_light">Applies when the dark theme is active</string>
+    <string name="setting_grid">Grid size</string>
+    <string name="setup_default_desc">Save to Internal storage/%1$s</string>
+    <string name="allow_storage_desc">Needed to read statuses and write to your save folder</string>
+    <string name="change_folder_desc">Pick any folder on your phone or SD card</string>
+    <string name="use_default_desc">Go back to Internal storage/%1$s</string>
+    <string name="source_access_granted">Access granted</string>
+    <string name="source_access_needed">Access needed</string>
+    <string name="source_not_installed">Not installed</string>
+    <string name="setting_auto_save">Auto-save new statuses</string>
+    <string name="setting_auto_save_desc">Quietly copies new statuses about every 30 minutes, on-device only</string>
+    <string name="setting_auto_save_videos">Include videos</string>
+    <string name="setting_auto_save_videos_desc">Videos use more storage</string>
+    <string name="setting_haptics">Haptic feedback</string>
+    <string name="setting_haptics_desc">Subtle vibration on save and select</string>
+    <string name="setting_confirm_delete">Confirm before deleting</string>
+    <string name="setting_confirm_delete_desc">Ask before removing saved files</string>
+    <string name="about_row_desc">What Glintbox is, and what it isn\'t</string>
+    <string name="privacy_row_desc">No data collected. Ever.</string>
+    <string name="rate_desc">A quick rating helps a lot</string>
+    <string name="share_app_desc">Tell a friend</string>
+    <string name="share_via">Share via</string>
+    <string name="share_app_text">I save and organise my favourite statuses with Glintbox: %1$s</string>
+    <string name="version_label">Version %1$s</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_tagline">Keep the moments worth keeping.</string>
+    <string name="feature_media_title">Photos, videos &amp; GIFs</string>
+    <string name="feature_media_desc">Full-screen viewer with pinch-to-zoom and playback</string>
+    <string name="feature_auto_title">Auto-save &amp; bulk save</string>
+    <string name="feature_auto_desc">Save everything new in one tap, or automatically</string>
+    <string name="feature_folder_title">Your folder, your rules</string>
+    <string name="feature_folder_desc">Internal storage/WhatsApp Statuses, or any folder you pick</string>
+    <string name="feature_theme_title">Six handcrafted palettes</string>
+    <string name="feature_theme_desc">Light, dark, pure black and Material You</string>
+    <string name="feature_private_title">100% offline</string>
+    <string name="feature_private_desc">No internet permission, no ads, no tracking</string>
+    <string name="respect_title">Before you start</string>
+    <string name="respect_point_affiliation">Glintbox is an independent app. It is not affiliated with, endorsed or sponsored by WhatsApp LLC or Meta Platforms, Inc.</string>
+    <string name="respect_point_consent">Statuses belong to the people who posted them. Only save or re-share content with the owner\'s permission.</string>
+    <string name="respect_point_local">Glintbox only reads statuses already downloaded to your phone. It can\'t see anything you haven\'t viewed.</string>
+    <string name="respect_point_offline">Everything stays on your device. Nothing is uploaded, collected or tracked.</string>
+    <string name="read_privacy_policy">Read the privacy policy</string>
+    <string name="onboarding_access_title">Allow status access</string>
+    <string name="onboarding_access_desc">Grant access to the statuses folder of the apps you use. Glintbox can only see that folder.</string>
+    <string name="onboarding_access_skip">You can also do this later from the Statuses tab or Settings.</string>
+    <string name="onboarding_save_title">Where should we save?</string>
+    <string name="onboarding_save_desc">By default statuses are saved to Internal storage/%1$s. You can pick any other folder at any time.</string>
+    <string name="onboarding_save_note">Change this whenever you like in Settings → Storage.</string>
+
+    <!-- About -->
+    <string name="about_title">About Glintbox</string>
+    <string name="about_what_title">What it does</string>
+    <string name="about_what_body">Glintbox lets you view and keep copies of statuses that your messaging app has already downloaded to your phone, organise them in a beautiful gallery and share them with the apps you choose.</string>
+    <string name="about_disclaimer_title">Disclaimer</string>
+    <string name="about_disclaimer_body">Glintbox is an independent product. It is not affiliated with, associated with, authorised, endorsed by, or in any way officially connected to WhatsApp LLC, Meta Platforms, Inc., or any of their subsidiaries or affiliates. \"WhatsApp\" is a trademark of its respective owner and is used here only to describe compatibility.</string>
+    <string name="about_content_title">Respect content owners</string>
+    <string name="about_content_body">Statuses are created and owned by other people. Saving or re-sharing them without permission may violate their privacy or intellectual-property rights. You are responsible for how you use saved content. Glintbox does not host, upload or distribute any content.</string>
+    <string name="about_how_title">How it works</string>
+    <string name="about_how_body">When you view a status, your messaging app stores a temporary copy on your phone for about 24 hours. With your permission, Glintbox reads that folder and copies the files you choose into your save folder.</string>
+    <string name="about_permissions_title">Permissions</string>
+    <string name="about_permissions_body">Android 11 and newer: no storage permission at all — you grant access to specific folders through the system folder picker and can revoke it any time. Android 8–10: the standard storage permission. Glintbox has no internet permission.</string>
+
+    <!-- Privacy -->
+    <string name="privacy_title">Privacy policy</string>
+    <string name="privacy_updated">Last updated 24 September 2026</string>
+    <string name="privacy_summary_title">In short</string>
+    <string name="privacy_summary_body">Glintbox does not collect, store, transmit or sell any personal data. The app has no internet access, no analytics, no advertising and no third-party trackers.</string>
+    <string name="privacy_collect_title">Data we collect</string>
+    <string name="privacy_collect_body">None. Your preferences (theme, folders you picked, toggles) are stored only on your device and are deleted when you uninstall the app.</string>
+    <string name="privacy_access_title">Files on your device</string>
+    <string name="privacy_access_body">With your permission Glintbox reads media files from the status folder you grant and writes copies to the save folder you choose. These files are processed entirely on your device and never leave it unless you explicitly share them with another app.</string>
+    <string name="privacy_share_title">Sharing with third parties</string>
+    <string name="privacy_share_body">Glintbox shares nothing with anyone. When you tap Share or Repost, Android hands the selected file to the app you pick; that app\'s own privacy policy applies.</string>
+    <string name="privacy_children_title">Children</string>
+    <string name="privacy_children_body">Glintbox is not directed at children under 13 and does not knowingly collect data from anyone.</string>
+    <string name="privacy_changes_title">Changes</string>
+    <string name="privacy_changes_body">If this policy changes, the updated version will be published in the app and on the store listing with a new date.</string>
+    <string name="privacy_contact_title">Contact</string>
+    <string name="privacy_contact_body">Questions? Email support@glintbox.app.</string>
+
+    <plurals name="selected_count">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="save_all_new">
+        <item quantity="one">Save %1$d new status</item>
+        <item quantity="other">Save all %1$d new</item>
+    </plurals>
+    <plurals name="saved_subtitle">
+        <item quantity="one">%1$d keepsake in your gallery</item>
+        <item quantity="other">%1$d keepsakes in your gallery</item>
+    </plurals>
+    <plurals name="delete_title">
+        <item quantity="one">Delete this file?</item>
+        <item quantity="other">Delete %1$d files?</item>
+    </plurals>
+    <plurals name="grid_columns">
+        <item quantity="one">%1$d column</item>
+        <item quantity="other">%1$d columns</item>
+    </plurals>
+    <plurals name="lifetime_saves">
+        <item quantity="one">%1$d status saved so far</item>
+        <item quantity="other">%1$d statuses saved so far</item>
+    </plurals>
+    <plurals name="expires_in_hours">
+        <item quantity="one">~%1$dh left</item>
+        <item quantity="other">~%1$dh left</item>
+    </plurals>
+</resources>

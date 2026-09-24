@@ -1,0 +1,60 @@
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Local configuration
+local.properties
+
+# Android generated
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Native/CMake generated
+**/.cxx/
+**/.externalNativeBuild/
+**/cmake-build-*/
+
+# APK / AAB
+*.apk
+*.aab
+
+# Kotlin
+.kotlin/
+
+# Java
+*.class
+
+# Signing
+*.jks
+*.keystore
+
+# Secrets
+.env
+.env.*
+google-services.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Temporary
+*.tmp
+*.swp
+*.swo
+*~
+# Release signing secrets
+keystore.properties
