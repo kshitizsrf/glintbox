@@ -41,4 +41,4 @@ If this policy changes, the updated version will be published at this address wi
 
 ## Contact
 
-support@glintbox.app  <!-- replace with your real support address -->
+kshitizsrf@gmail.com

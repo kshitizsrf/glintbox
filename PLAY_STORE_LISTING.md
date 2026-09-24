@@ -57,17 +57,17 @@ Avoid showing the WhatsApp logo or real people's statuses in screenshots — use
 
 ## App content answers
 
-| Section | Answer |
-|---|---|
-| Privacy policy URL | Host `PRIVACY_POLICY.md` (e.g. GitHub Pages / Google Sites) and paste the URL |
-| Ads | No ads |
-| App access | All functionality available without special access |
-| Content rating | IARC questionnaire: utility app, no user-generated content hosted, no violence etc. → Everyone |
-| Target audience | 13+ (select 13–15, 16–17, 18+). Do **not** target children. |
-| News app | No |
-| Government app | No |
-| Financial features | None |
-| Health | No |
+| Section            | Answer                                                                                         |
+|--------------------|------------------------------------------------------------------------------------------------|
+| Privacy policy URL | Host `PRIVACY_POLICY.md` (e.g. GitHub Pages / Google Sites) and paste the URL                  |
+| Ads                | No ads                                                                                         |
+| App access         | All functionality available without special access                                             |
+| Content rating     | IARC questionnaire: utility app, no user-generated content hosted, no violence etc. → Everyone |
+| Target audience    | 13+ (select 13–15, 16–17, 18+). Do **not** target children.                                    |
+| News app           | No                                                                                             |
+| Government app     | No                                                                                             |
+| Financial features | None                                                                                           |
+| Health             | No                                                                                             |
 
 ## Data safety form
 
@@ -78,11 +78,11 @@ Avoid showing the WhatsApp logo or real people's statuses in screenshots — use
 
 ## Permissions declaration
 
-| Permission | Why | Needs a Play declaration? |
-|---|---|---|
-| `READ_EXTERNAL_STORAGE` (maxSdk 29) | Read status files on Android 8–10 | No |
-| `WRITE_EXTERNAL_STORAGE` (maxSdk 29) | Write to `WhatsApp Statuses` on Android 8–10 | No |
-| `RECEIVE_BOOT_COMPLETED`, `WAKE_LOCK`, `ACCESS_NETWORK_STATE` | Merged automatically by WorkManager for optional auto-save | No |
+| Permission                                                    | Why                                                        | Needs a Play declaration? |
+|---------------------------------------------------------------|------------------------------------------------------------|---------------------------|
+| `READ_EXTERNAL_STORAGE` (maxSdk 29)                           | Read status files on Android 8–10                          | No                        |
+| `WRITE_EXTERNAL_STORAGE` (maxSdk 29)                          | Write to `WhatsApp Statuses` on Android 8–10               | No                        |
+| `RECEIVE_BOOT_COMPLETED`, `WAKE_LOCK`, `ACCESS_NETWORK_STATE` | Merged automatically by WorkManager for optional auto-save | No                        |
 
 Not requested (by design, so no sensitive-permission declarations are needed):
 `MANAGE_EXTERNAL_STORAGE`, `READ_MEDIA_IMAGES`, `READ_MEDIA_VIDEO`, `INTERNET`, `POST_NOTIFICATIONS`, any foreground-service type, `AD_ID`.
@@ -97,5 +97,5 @@ Not requested (by design, so no sensitive-permission declarations are needed):
 - [x] No ads, no tracking, no network access
 - [x] Adaptive + themed (monochrome) icon, splash screen API, edge-to-edge, predictive back
 - [x] Release build minified with R8 and resources shrunk
-- [ ] Replace `support@glintbox.app` in `strings.xml` and `PRIVACY_POLICY.md` with your real inbox
-- [ ] Create an upload keystore and `keystore.properties` (see README)
+- [x] Replace `support@glintbox.app` in `strings.xml` and `PRIVACY_POLICY.md` with your real inbox
+- [x] Create an upload keystore and `keystore.properties` (see README)

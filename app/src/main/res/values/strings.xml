@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Glintbox</string>
-    <!-- TODO: replace with your real support inbox before publishing. -->
-    <string name="support_email" translatable="false">support@glintbox.app</string>
+    <string name="support_email" translatable="false">kshitizsrf@gmail.com</string>
 
     <!-- Sources (nominative use only — Glintbox is not affiliated with these apps) -->
     <string name="source_whatsapp">WhatsApp</string>
@@ -225,7 +224,7 @@
     <string name="privacy_changes_title">Changes</string>
     <string name="privacy_changes_body">If this policy changes, the updated version will be published in the app and on the store listing with a new date.</string>
     <string name="privacy_contact_title">Contact</string>
-    <string name="privacy_contact_body">Questions? Email support@glintbox.app.</string>
+    <string name="privacy_contact_body">Questions? Email kshitizsrf@gmail.com.</string>
 
     <plurals name="selected_count">
         <item quantity="one">%1$d selected</item>

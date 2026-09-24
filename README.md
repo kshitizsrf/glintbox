@@ -76,7 +76,7 @@ Status files carry no sender info (WhatsApp keeps that in its private DB), so th
 
 ## Before publishing
 
-- Replace `support@glintbox.app` in `app/src/main/res/values/strings.xml` and `PRIVACY_POLICY.md`.
+- Replace `kshitizsrf@gmail.com` in `app/src/main/res/values/strings.xml` and `PRIVACY_POLICY.md`.
 - Host `PRIVACY_POLICY.md` and paste its URL into Play Console.
 - Fill Play Console using `PLAY_STORE_LISTING.md` (listing text, Data safety = "no data collected", content rating, target audience 13+).
 - Bump `versionCode` / `versionName` in `app/build.gradle.kts` for each release.
